@@ -1,0 +1,15 @@
+glob:*.dcu
+glob:*.local
+glob:*.exe
+glob:*.bpl
+glob:*.~*
+glob:*.identcache
+glob:*.dof
+glob:*.dsk
+glob:*.bak
+glob:*.old
+glob:*.txaPackage
+glob:*.tvsconfig
+glob:*.txvpck
+glob:Test/HTMLWriterTestAppTests.xml
+glob:Test/*.orig
