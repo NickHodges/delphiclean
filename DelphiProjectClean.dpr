@@ -45,7 +45,7 @@ begin
   end
   else
   begin
-    WriteLn('Directory is invalid: ', DirectoryToClean);
+    WriteLn('Directory is invalid or doesn''t exist: ', DirectoryToClean);
   end;
   Result := TempTotal;
 end;
@@ -53,7 +53,7 @@ end;
 begin
  { TODO : Allow recursiveness to be a command line option }
   WriteLn('Delphi Directory Cleaning Utility Version 1.0');
-  WriteLn('Copyright © 2010 by Nick Hodges All Rights Reserved');
+  WriteLn('Copyright © 2011 by Nick Hodges All Rights Reserved');
 //  TotalFilesDeleted := 0;
   if ParamCount > 0 then
   begin
