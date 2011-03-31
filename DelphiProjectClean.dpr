@@ -54,7 +54,6 @@ begin
  { TODO : Allow recursiveness to be a command line option }
   WriteLn('Delphi Directory Cleaning Utility Version 1.0');
   WriteLn('Copyright © 2011 by Nick Hodges All Rights Reserved');
-//  TotalFilesDeleted := 0;
   if ParamCount > 0 then
   begin
     DirectoryToClean := ParamStr(1);
