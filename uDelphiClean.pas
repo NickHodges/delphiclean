@@ -55,8 +55,7 @@ begin
         Inc(TempTotal);
       end
     end;
-  end
-  else
+  end else
   begin
     WriteLn('Directory is invalid or doesn''t exist: ', aDirectoryToClean);
   end;
@@ -92,7 +91,6 @@ begin
     // EXE resides
     DirectoryToClean := ModulePath;
   end;
-  Assert(DirectoryToClean <> '', 'Somehow the DirectoryToClean variable is empty.  That should be impossible.');
   TotalFilesDeleted := DelphiCleaner.CleanDirectory(DirectoryToClean);
 
   if TotalFilesDeleted = 0 then
@@ -104,6 +102,5 @@ begin
   end;
   WriteLn('All Done.');
 end;
-
 
 end.
